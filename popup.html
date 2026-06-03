@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css" />
+    <title>Popup</title>
+</head>
+
+<body>
+    <div class="card card--inverted">
+        <h1 id="heading"></h1>
+
+        <div id="form">
+            <div class="input-wrapper">
+                <div class="form-label">Folder REGEX</div>
+                <label class="input">
+                    <input class="input__field" type="text" name="folder"
+                        placeholder=".*:\/\/cdn.shopify.com\/extensions\/.*\/assets\/bss.*"
+                        value=".*:\/\/cdn.shopify.com\/extensions\/.*\/assets\/bss.*" />
+                </label>
+            </div>
+
+            <div class="input-wrapper">
+                <div class="form-label">Filename Regex</div>
+                <label class="input">
+                    <input class="input__field" type="text" name="file_name"
+                        placeholder="bss.*" value="bss.*" />
+                </label>
+            </div>
+
+            <div class="input-wrapper">
+                <div class="form-label">Redirect To</div>
+                <label class="input">
+                    <input class="input__field" type="text" placeholder="http://localhost:5001"
+                        value="http://localhost:5001" name="redirect_to" />
+                </label>
+            </div>
+        </div>
+
+        <div class="message"></div>
+
+        <div class="button-group">
+            <button id="enable-btn">Enable</button>
+            <button id="save-btn">Save</button>
+        </div>
+    </div>
+</body>
+
+</html>
