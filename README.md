@@ -21,7 +21,7 @@ A Chrome extension that redirects matching script and stylesheet requests to a c
 1. Open `chrome://extensions`.
 2. Enable **Developer mode**.
 3. Click **Load unpacked**.
-4. Select this folder: `/tmp/workspace/tienct01/script-redirect-extension`.
+4. Select your extension folder (this project directory).
 
 ## Configuration
 
