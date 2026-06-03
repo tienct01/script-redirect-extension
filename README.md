@@ -27,7 +27,7 @@ A Chrome extension that redirects matching script and stylesheet requests to a c
 
 From the popup:
 
-- **Folder REGEX** (`folder`): base URL pattern to match.
+- **Folder Regex** (`folder`): base URL pattern to match.
 - **Filename Regex** (`file_name`): captured filename/group pattern.
 - **Redirect To** (`redirect_to`): destination base URL.
 
